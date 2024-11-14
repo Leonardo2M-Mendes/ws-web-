@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+
+
+    padding:0px ;
+}
+
+.container{
+    background-color: #f0f0f0;
+    margin: 30px;
+    padding: 30px;
+    box-shadow: 0 0 10 px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+.container h1 {
+    color: darkblue;
+    margin-bottom: 20px;
+}
+
+.container h2 {
+    color: darkblue;
+    margin-bottom: 10px;
+}
+
+.container p {
+    color: black;
+    margin-bottom: 10px;
+}
+
+ul, ol {
+    color: black;
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+
+.imagem {
+    width: 200px;
+    height: 200px;
+    margin: 0px auto;
+}
+
+.minha-imagem p{
+    color: black;
+    text-align: center;
+}
+
+.minha-imagem a {
+color: black;
+text-decoration: none;
+}
+.minha-imagem a:hover {
+color: blue;
+text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

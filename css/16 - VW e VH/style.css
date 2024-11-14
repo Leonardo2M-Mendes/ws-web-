@@ -1,0 +1,18 @@
+body{
+width: 500px;
+height: 500px;
+margin: 0;
+padding: 0;
+}
+
+.view {
+    background-color: brown;
+    width: 10vw;
+    height: 10vh;
+}
+
+.porcentagem {
+    background-color: blueviolet;
+    width: 50%;
+    height: 50%;
+}
