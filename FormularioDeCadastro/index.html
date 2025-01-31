@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <main class="container">
+        <h1>Formulário de Cadastro</h1>
+        <form action="/submit" method="post" class="container__forms">
+            <div class="container__infos-pessoais">
+        <h2>Informações pessoais</h2>
+        <label for="Nome">Nome Completo:</label>
+        <input type="text" id="nome" name="nome"
+        placeholder="Digite seu nome completo" 
+        required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"
+        placeholder="email@email.com" 
+        required />
+
+        
+        <label for="Telefone">Telefone:</label>
+        <input type="tel" id="Telefone" name="Telefone"
+        placeholder="(00) 0 0000-0000" 
+        pattern="[0-9]{2} [0-9]{5}-[0-9]{4}" required />
+
+        <label for="Senha">Senha:</label>
+        <input type="password" id="Senha" name="Senha"
+        placeholder="Crie uma senha" 
+        required />
+
+        <label for="Idade">Idade:</label>
+        <input type="Idade" id="Idade" name="Idade"
+        min="0" max="120" required />
+
+            </div>
+
+            <div>
+               
+                <h2>Preferências</h2>
+                <label for="Gênero">Gênero:</label>
+                
+            <select name="Gênero" id="Gênero">
+                <option value="Gênero">Masculino</option>
+                <option value="Gênero">Feminino</option>
+                <option value="Gênero">Outro</option>
+            </select>   
+            
+            <label for="Interesses">Interesses:</label>
+                
+           <label for="Interesses"></label>
+           <label for="Interesses">Tecnologia</label>
+                <input type="checkbox" name="Interesses" id="Tecnologia"
+                value="Tecnologia">
+                
+
+                <label for="Interesses">Esporte</label>
+                <input type="checkbox" name="Interesses" id="Esporte" value="Esporte">
+                
+                <label for="Interesses">Musica</label>
+                <input type="checkbox" name="Interesses" id="Musica" value="Musica">
+               
+
+                <label for="newsletter">Deseja receber nossa newletter?</label>
+
+                <input type="radio" name="newsletter" id="sim" value="sim">
+                <label for="newsletter">Sim</label>
+
+                <input type="radio" name="newsletter" id="não" value="não">
+                <label for="newsletter">Não</label>
+            </div>
+
+            <div class="container__infos-adicionais">
+                <h2>Informações Adicionais</h2>
+                <label for="bio">Biografia: </label>
+                <textarea id="bio" rows="5" cols="30" placeholder="Escreva sobre você"></textarea>
+
+                <label for="cor">Escolha sua cor preferida:</label>
+                <input type="color" name="cor" id="cor" />
+
+                <label for="data">Data de cadastro:</label>
+                <input type="date" name="data" id="data">
+
+                <label for="sie">Website pessoal:</label>
+                <input type="url" name="site" id="site" placeholder="https://" />
+
+                <label for="arquivo">Envie seu arquivo de perfil:</label>
+                <input type="file" name="arquivo" id="arquivo" />
+
+            </div>
+
+             <div class="container__envio">
+               <button type="submit">Enviar cadastro</button>
+               <input type="reset" value="Limpar Campos" />
+
+             </div>
+        </form>
+    </main>
+   
+</body>
+</html>
