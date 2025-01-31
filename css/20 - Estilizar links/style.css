@@ -1,0 +1,18 @@
+.link{
+    color: brown;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.link:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+.link:visited{
+    color: blue;
+}
+
+.link:active{
+    background-color: maroon;
+}

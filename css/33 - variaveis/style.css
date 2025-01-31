@@ -1,0 +1,19 @@
+:root{
+--cor-primaria: #3345d3;
+--cor-secundaria: #99adb6; 
+--medidade-padrao: 20px;
+}
+
+p{
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+}
+
+h1{
+    font-size: var(--medidade-padrao);
+    color: #1a455d;
+}
+h2, h3{
+    font-size: var(--medidade-padrao);
+    color: var(--cor-primaria);
+}

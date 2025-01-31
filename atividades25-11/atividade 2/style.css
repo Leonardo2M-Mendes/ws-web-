@@ -1,0 +1,10 @@
+
+.container {
+    text-align: justify; 
+    text-transform: uppercase; 
+    text-decoration: underline; 
+    line-height: 1.8; 
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); 
+    font-size: 16px; 
+    color: #333; 
+}

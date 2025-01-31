@@ -56,3 +56,20 @@
 .fonte{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+
+.fonte-externa {
+    font-family: "Montserrat", sans-serif;
+}
+
+.tamanho{
+    font-size: 1em;
+}
+
+.espessura{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+}
+
+.estilo{
+    font-style: italic;
+}

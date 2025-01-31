@@ -1,0 +1,13 @@
+.bg{
+    background-color: aquamarine;
+    width: 600px;
+    height: 600px;
+    background-image: url("./Free-hd-beautiful-sunset-photos.jpg");
+    background-repeat: no-repeat;
+    /*background-size: cover;*/
+    /*background-repeat: repeat-x;*/
+   /*background-repeat: repeat-y;*/
+   /*background-position: left bottom;*/
+   /*background-position: right top;*/
+   /*background-attachment: scroll;*/
+}

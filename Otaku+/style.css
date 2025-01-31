@@ -1,0 +1,128 @@
+:root {
+    --branco-principal: #fff;
+    --branco-secundario: #f9f9f9;
+    --laranja: #ff740a;
+    --cor-de-fundo: #170A00;
+    --fonte-principal: "Bangers";
+    --fonte-secundaria: "Roboto";
+}
+ 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+ 
+.principal {
+    background-image: url("./img/Background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    align-items: center;
+}
+ 
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+ 
+.container__caixa-titulo{
+    font-size: 28px;
+}
+ 
+.container__caixa-imagem{
+    margin: 1em 0 2em 0;
+    max-width: 100%;
+    height: auto;
+}
+ 
+.container__caixa-botao{
+    background-color: var(--laranja);
+    border-radius: 8px;
+    color: var(--branco-principal);
+    padding: 1em;
+    display: block;
+    text-decoration: none;
+    margin: 1em auto;
+}
+ 
+.botao-secundario{
+    background-color: transparent;
+    border: 2px solid var(--branco-principal);
+}
+ 
+.container__caixa-aviso{
+    font-size: 12px;
+    color: var(--branco-secundario);
+}
+ 
+.container__caixa {
+    margin: 0 6em;
+}
+ 
+.secundaria {
+    align-items: center;
+    margin: 0 10em;
+}
+ 
+.container__descricao-titulo{
+    font-size: 48px;
+    margin-bottom: 0.5em;
+}
+ 
+.container__descricao-texto {
+    color: var(--branco-secundario);
+}
+ 
+.ajuste-botao{
+    margin: 1em 0;
+    width: fit-content;
+}
+ 
+.dispositivos {
+    text-align: center;
+    font-size: 48px;
+}
+ 
+.dispositivos__lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+    font-size: 32px;
+}
+ 
+.rodape{
+    font-family: var(--fonte-secundaria);
+    text-align: center;
+    letter-spacing: 0px;
+}
+ 
+.rodape__lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 2em 0;
+    font-size: 16px;
+}
+ 
+.rodape__lista li a {
+    text-decoration: none;
+    color: var(--branco-secundario);
+    margin: 0 1em;
+}
+ 
+.rodape p {
+    font-size: 14px;
+    color: var(--branco-secundario);
+    margin: 1em 0;
+}

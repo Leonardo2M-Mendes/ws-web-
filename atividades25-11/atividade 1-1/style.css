@@ -1,0 +1,26 @@
+/* Estilo aplicado diretamente à tag */
+h1 {
+    color: blue;
+    text-align: center;
+}
+
+/* Estilo aplicado a uma classe */
+.paragraph-class {
+    font-size: 18px;
+    line-height: 1.6;
+    color: green;
+}
+
+/* Estilo aplicado a um ID */
+#paragraph-id {
+    font-weight: bold;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Estilo geral para o corpo */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
